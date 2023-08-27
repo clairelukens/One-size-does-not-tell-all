@@ -1,6 +1,8 @@
 # One-size-does-not-tell-all
 This repository holds the datafiles and matlab code associated with the article "Sand, gravel, cobbles, and boulders: Detrital thermochronology shows that one size does not tell all", by C. E. Lukens, C. S. Riebe, L. S. Sklar, and D. L. Shuster.
 
+Code is available for research and education purposes, under the license included. 
+
 Datafiles:  The catchment file (inyoXYZS), which includes columns for northing, easting, elevation, and slope for each cell in the 10-m digital elevation model. 
 The detrital (U-Th)/He ages comprise the “AllAge_NoOutliers” file, with outliers removed. This is the file called in the code. Each sediment size has three columns: the (U-Th)/He age in Ma, the analytical error (1-sigma, also in Ma), and the percent error. Sediment sizes are arranged from smallest to largest. 
 The “allData” file is formatted in the same way, but includes the outliers. 
